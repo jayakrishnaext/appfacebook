@@ -1,0 +1,44 @@
+.side-bar-container {
+    background-color: #000000 !important;
+    height: 100%;
+  }
+  
+  .side-bar-logo {
+    height: 40%;
+    width: 50%;
+  }
+  
+  .side-bar-list-item {
+    color: #fff;
+    font-weight: 900 !important;
+  }
+  
+  .side-bar-icon-container {
+    height: 1.4rem;
+    width: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-bar-plus {
+    background-color: #fff;
+  }
+  
+  .side-bar-love {
+    border-radius: 1px;
+    background: linear-gradient(
+      135deg,
+      #4000f4 0%,
+      #603aed 22.48%,
+      #7c6ee6 46.93%,
+      #979fe1 65.71%,
+      #a2b3de 77.68%,
+      #adc8dc 88.93%,
+      #c0ecd7 100%
+    );
+  }
+  
+  .side-bar-wifi{
+      background-color: #004638;
+  }

@@ -1,0 +1,41 @@
+.display{
+    display: flex;
+    justify-content: space-between;
+    min-width: 70rem;
+    align-items: center;
+}
+.inputs{
+    border-radius: 20px;
+}
+
+@media (max-width:1024px) {
+    .display{
+        display: flex;
+        justify-content: space-between;
+        min-width: 45rem;
+        align-items: center;
+    }
+}
+@media (max-width:768px) {
+    .display{
+        display: flex;
+        justify-content: space-between;
+        min-width: 31rem;
+        align-items: center;
+    }
+    .kohili-image{
+        display: none;
+    }
+    .notifiaction{
+        display: none;
+    }
+    .message{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    .mobile-device{
+        display: none;
+    }
+}
